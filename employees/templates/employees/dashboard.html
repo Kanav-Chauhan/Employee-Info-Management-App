@@ -1,0 +1,6 @@
+{% extends 'employees/base.html' %}
+{% block content %}
+<h2>Dashboard</h2>
+<p><strong>Total Employees:</strong> {{ count }}</p>
+<p><strong>Weather in {{ weather.city }}:</strong> {{ weather.temp }}°C, {{ weather.desc }}</p>
+{% endblock %}
