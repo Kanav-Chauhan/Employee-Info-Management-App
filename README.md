@@ -2,6 +2,7 @@
 
 A **simple full-stack Django web application** to manage employee records and display **live weather information**.  
 Built as part of the **Python Developer assignment** for **Exotica IT Solutions Pvt. Ltd.**
+![Dashboard Screenshot](media/1.png)
 
 ---
 
@@ -44,7 +45,7 @@ The app uses **OpenWeatherMap’s Current Weather API** to fetch live weather de
 
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/<your-username>/employee_project.git
+git clone https://github.com/Kanav-Chauhan/Employee-Info-Management-App.git
 cd employee_project
 ```
 ### 2️⃣ Create a virtual environment
@@ -61,7 +62,7 @@ source venv/bin/activate # Mac/Linux
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Add your OpenWeatherMap API key
+### 4️⃣ Add your OpenWeatherMap API key in .env
 
 ```bash
 API_KEY = "YOUR_API_KEY"
