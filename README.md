@@ -1,8 +1,10 @@
-# 🧑‍💼 Employee Info Management App
+# [🧑‍💼 Employee Info Management App-Click for Live Demo](https://employee-info-management-app-kanav.onrender.com/)
+Live demo can take 1-2 Min to load as its on free tier.
 
 A **simple full-stack Django web application** to manage employee records and display **live weather information**.  
 Built as part of the **Python Developer assignment** for **Exotica IT Solutions Pvt. Ltd.**
 ![Dashboard Screenshot](media/1.png)
+![Dashboard Screenshot](media/2.png)
 
 ---
 
