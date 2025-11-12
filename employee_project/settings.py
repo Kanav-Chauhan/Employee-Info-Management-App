@@ -25,7 +25,12 @@ SECRET_KEY = 'django-insecure-ke7_9qe49uf9sn4w3nc3p9wd@9wt$swy3u*sck_(5y+__4fcv@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['employee-info-management-app-kanav.onrender.com', 'localhost', '127.0.0.1']
+
+CSRF_TRUSTED_ORIGINS = [
+    'https://employee-info-management-app-kanav.onrender.com',
+    'http://localhost:8000'
+]
 
 
 # Application definition
